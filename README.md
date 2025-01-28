@@ -18,8 +18,8 @@ QR Code Component
 ![](/src/assets/screenshot.png)
 
 ### Links
-- Solution URL: [Solution URL](https://github.com/Ellamonacillo/qr-code-component.github.io)
-- Live Site URL: [Github Pages](https://ellamonacillo.github.io/qr-code-component.github.io/)
+- Solution URL: [Solution URL](https://github.com/Ellamonacillo/faq-accordion.github.io)
+- Live Site URL: [Github Pages](https://ellamonacillo.github.io/faq-accordion.github.io/)
 
 ## My process
 
