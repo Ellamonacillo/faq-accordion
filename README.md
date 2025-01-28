@@ -19,7 +19,7 @@ QR Code Component
 
 ### Links
 - Solution URL: [Solution URL](https://github.com/Ellamonacillo/faq-accordion.github.io)
-- Live Site URL: [Github Pages](https://ellamonacillo.github.io/faq-accordion.github.io/)
+- Live Site URL: [Github Pages](https://faq-accordion-mgm.netlify.app)
 
 ## My process
 
