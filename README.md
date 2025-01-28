@@ -18,7 +18,7 @@ QR Code Component
 ![](/src/assets/screenshot.png)
 
 ### Links
-- Solution URL: [Solution URL](https://github.com/Ellamonacillo/faq-accordion.github.io)
+- Solution URL: [Solution URL](https://github.com/Ellamonacillo/faq-accordion)
 - Live Site URL: [Github Pages](https://faq-accordion-mgm.netlify.app)
 
 ## My process
