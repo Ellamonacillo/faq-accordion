@@ -19,7 +19,7 @@ FAQs Accordion
 
 ### Links
 - Solution URL: [Solution URL](https://github.com/Ellamonacillo/faq-accordion)
-- Live Site URL: [Github Pages](https://faq-accordion-mgm.netlify.app)
+- Live Site URL: [Netlify](https://faq-accordion-mgm.netlify.app)
 
 ## My process
 
