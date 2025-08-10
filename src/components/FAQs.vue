@@ -1,14 +1,14 @@
 <template>
-    <div id="accordion-collapse" data-accordion="collapse" class="p-5 bg-white rounded-lg font-worksans w-xl">
+    <section id="accordion-collapse" data-accordion="collapse" class="p-5 bg-white rounded-lg font-worksans w-xl">
         <div class="pb-2 flex items-center">
-            <img src="/assets/icon-star.svg" class="inline-block">
+            <img src="/assets/icon-star.svg" class="inline-block" alt="Star Icon">
             <h1 class="font-extrabold pl-5 text-3xl text-dark-purple">FAQS</h1>
         </div>
         <div v-for="faq in faqs" :key="faq.id" :class="{'py-3 border-t-1 border-gray-200': !faq.isOpen, 'py-3': faq.isOpen}">
             <h2 :id="`accordion-collapse-heading-` + faq.id">
                 <button type="button" class="flex items-center justify-between w-full" :aria-expanded="faq.isOpen.toString()" :aria-controls="'accordion-collapse-body-' + faq.id" @click="toggleAccordion(faq.id)">
-                    <h2 class="text-left font-semibold text-dark-purple hover:text-purple-600">{{ faq.title }}</h2>
-                    <img class="pl-2" :src="faq.isOpen ? '/assets/icon-minus.svg' : '/assets/icon-plus.svg'" />
+                    <h3 class="text-left font-semibold text-dark-purple hover:text-purple-600">{{ faq.title }}</h3>
+                    <img class="pl-2" :src="faq.isOpen ? '/assets/icon-minus.svg' : '/assets/icon-plus.svg'" alt="Plus Icon"/>
                 </button>
             </h2>
             <div :id="'accordion-collapse-body-' + faq.id" :class="{ hidden: !faq.isOpen }" :aria-labelledby="'accordion-collapse-heading-' + faq.id">
@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
